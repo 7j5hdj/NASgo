@@ -1,0 +1,16 @@
+localhost = ip
+
+Загрузка объекта по пути:
+curl -X POST --data-binary "@путь.расширение" http://localhost:8080/upload/имя.расширение
+
+Скачивание объекта:
+curl -O http://localhost:8080/download/"Путь и название объекта"
+
+Получение списка всех объектов:
+curl http://localhost:8080/list
+
+Получение списка всех команд:
+curl http://localhost:8080/commands
+
+
+
